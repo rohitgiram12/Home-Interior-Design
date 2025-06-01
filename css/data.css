@@ -1,0 +1,222 @@
+
+
+table {
+	border-collapse: collapse;
+	width: 80%;
+}
+
+th, td {
+	border: 1px solid rgb(194, 194, 194);
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #e7e3e3;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #e2e2e2;
+}
+
+tr:hover {
+	background-color: #ddd;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .bg-top {
+	background-image: url("images/top.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	position: relative;
+  }
+  
+  .bg-top-2 {
+	background-image: url("images/top-2.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	position: relative;
+  }
+  
+  .bg {
+	background-color: rgb(223, 160, 244);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+  
+  .bg-top-shadow {
+	background-color: rgba(244, 167, 202, 0.7);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+  
+  .main {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  .box {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	margin: 0 10px;
+  }
+  
+  .padding {
+	padding: 3em 0;
+  }
+  
+  .container_12 {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+	text-align: center;
+  }
+  
+  .wrapper {
+	display: table;
+	width: 100%;
+	height: 100%;
+  }
+  
+  .grid_12 {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+  }
+  
+  h1 {
+	font-size: 2.5em;
+	line-height: 1 em;
+	margin: 0 0 10px;
+  }
+  
+  h1 span {
+	color: #424542;
+	font-size: 1.2em;
+	font-weight: normal;
+  }
+  
+  .logo {
+	color: #e09123;
+	font-weight: bold;
+  }
+  
+  .logo strong {
+	color: #000000;
+  }
+  
+  button {
+	text-transform: uppercase;
+	outline: none;
+  }
+  
+  button:focus {
+	box-shadow: 0 0 3px 1px rgba(0, 123, 255, 0.5);
+  }
+  
+  button:active {
+	box-shadow: 0 0 3px 1px rgba(0, 123, 255, 0.3);
+  }
+  
+  button:hover {
+	background-color: #df5353;
+  }
+  
+  @media screen and (max-width: 768px) {
+	h1 {
+	  font-size: 2em;
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	h1 {
+	  font-size: 1.5em;
+	}
+  }
+  
+  /* Add border to the table */
+  #dataTable {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #ddd;
+  }
+  
+  /* Style for table header */
+  #dataTable th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  /* Style for table data cells */
+  #dataTable td {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  /* Style for even table rows */
+  #dataTable tr:nth-child(even) {
+	background-color: #f2f2f2;
+  }
+  
+  /* Style for search input field */
+  #searchInput {
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+  }
+  
+  /* Style for "Download CSV" button */
+  #mind {
+	background-color: #6e81b9;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+  }
+  
+  /* Style for "Download CSV" button hover */
+  #mind:hover {
+	background-color: #3e8e41;
+  }
+  
+  /* Style for "Go Back"
